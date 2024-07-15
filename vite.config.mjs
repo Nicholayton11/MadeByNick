@@ -11,7 +11,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "https://github.com/Nicholayton11/Iconick.git",
+  base: "https://github.com/Nicholayton11/Iconick.git",
   plugins: [
     VueRouter(),
     Vue({
