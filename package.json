@@ -2,10 +2,10 @@
   "name": "MadeByNick",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview",
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
